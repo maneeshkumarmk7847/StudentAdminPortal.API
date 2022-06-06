@@ -12,7 +12,7 @@ namespace StudentAdminPortal.API.DataModels
         {
         }
         public DbSet<Student>Student { get; set; }
-        public DbSet<Student> Gender { get; set; }
-        public DbSet<Student> Address { get; set; }
+        public DbSet<Gender> Gender { get; set; }
+        public DbSet<Address> Address { get; set; }
     }
 }
